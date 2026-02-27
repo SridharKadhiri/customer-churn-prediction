@@ -1,3 +1,8 @@
+code .gitignore
+```
+
+Copy paste exactly this inside it and save:
+```
 # Python
 __pycache__/
 *.py[cod]
