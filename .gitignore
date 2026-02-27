@@ -1,10 +1,18 @@
-pandas
-numpy
-scikit-learn
-xgboost
-shap
-matplotlib
-seaborn
-streamlit
-jupyter
-imbalanced-learn
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data - raw data should not be pushed to GitHub
+data/raw/
+
+# Models - large model files
+models/
+
+# OS files
+.DS_Store
+Thumbs.db
